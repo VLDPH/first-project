@@ -1,3 +1,47 @@
-h1 {
-  color: blue;
+body {
+  margin: 0;
+  font-size: 100%;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+  background-size: cover;
+}
+
+.link {
+  font-size: 120px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: auto;
+  text-align: center;
+  color: #ff9d00;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: white;
+}
+
+.footer {
+  font-family: sans-serif;
+  z-index: 0;
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  color: black;
+  background-color: black;
+}
+
+.background {
+  z-index: -1;
+  position: absolute;
+  background-color: #ff9d00;
+  bottom: -10px;
+  right: -10px;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
 }
